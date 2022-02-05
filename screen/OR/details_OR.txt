@@ -1,0 +1,7 @@
+Détails :
+inputs              : 2 binaires
+outputs             : 1 binaires
+nombre d'entrée     : 2
+nombre de sortie    : 1
+nombre de connexion : 15 [(nombre de connexion du OR + nombre de connexion du NAND utilisé) - (nb input du NAND + nb output du NAND)]
+nombre de cable     : 6
