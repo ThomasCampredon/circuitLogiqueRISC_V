@@ -1,0 +1,7 @@
+Détails :
+inputs              : 2 binaires et 1 binaire de retenu (pour gérer la somme des binaires)
+outputs             : 2 binaires (la somme et le bit de retenu)
+nombre d'entrée     : 3
+nombre de sortie    : 2
+nombre de connexion : 90
+nombre de cable     : 25
