@@ -1,0 +1,7 @@
+Détails :
+inputs              : 4 binaires qu'on ajoute à 4 binaires et une retenu (si on veut faire un adder en 8 bits)
+outputs             : 4 bianires et une indication d'overflow (8 + 10 = 18 > 15 donc pas représentable sur 4bits)
+nombre d'entrée     : 9
+nombre de sortie    : 5
+nombre de connexion : 374
+nombre de cable     : 97
