@@ -1,0 +1,7 @@
+Détails :
+inputs              : 4 binaires qu'on ajoute à 4 binaires et 1 bit pour savoir si on fait une soustraction
+outputs             : 4 binaires et 1 bit de retenu et 1 bit pour savoir si le résultat est négatif et 1 bit pour savoir si c'est zéro
+nombre d'entrée     : 9
+nombre de sortie    : 7
+nombre de connexion : 535
+nombre de cable     : 153
