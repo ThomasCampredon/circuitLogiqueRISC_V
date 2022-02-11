@@ -1,0 +1,290 @@
+{
+    "name": "4BIT ADDER",
+    "creationIndex": 5,
+    "colour": {
+        "r": 0.16643236577510835,
+        "g": 0.580475389957428,
+        "b": 0.22100123763084413,
+        "a": 1.0
+    },
+    "nameColour": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "componentNameList": [
+        "SIGNAL IN",
+        "SIGNAL OUT",
+        "ADDER"
+    ],
+    "savedComponentChips": [
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 3.7119,
+            "inputPins": [],
+            "outputPinNames": [
+                "i1 8"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 3.2158,
+            "inputPins": [],
+            "outputPinNames": [
+                "i1 4"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 2.7197,
+            "inputPins": [],
+            "outputPinNames": [
+                "i1 2"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 2.2431,
+            "inputPins": [],
+            "outputPinNames": [
+                "i1 1"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 0.8005,
+            "inputPins": [],
+            "outputPinNames": [
+                "i2 8"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 0.2913,
+            "inputPins": [],
+            "outputPinNames": [
+                "i2 4"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": -0.2177,
+            "inputPins": [],
+            "outputPinNames": [
+                "i2 2"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": -0.753,
+            "inputPins": [],
+            "outputPinNames": [
+                "i2 1"
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": -2.039,
+            "inputPins": [],
+            "outputPinNames": [
+                "retenu"
+            ]
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 1.4076,
+            "inputPins": [
+                {
+                    "name": "o1 8",
+                    "parentChipIndex": 17,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 0.8527,
+            "inputPins": [
+                {
+                    "name": "o1 4",
+                    "parentChipIndex": 16,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 0.324,
+            "inputPins": [
+                {
+                    "name": "o1 2",
+                    "parentChipIndex": 15,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": -0.2373,
+            "inputPins": [
+                {
+                    "name": "o1 1",
+                    "parentChipIndex": 14,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": -1.4841,
+            "inputPins": [
+                {
+                    "name": "overflow",
+                    "parentChipIndex": 17,
+                    "parentChipOutputIndex": 1,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": []
+        },
+        {
+            "chipName": "ADDER",
+            "posX": -3.6947,
+            "posY": -1.1708,
+            "inputPins": [
+                {
+                    "name": "i1",
+                    "parentChipIndex": 3,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "i2",
+                    "parentChipIndex": 7,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "retenu",
+                    "parentChipIndex": 8,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "somme",
+                "retenu"
+            ]
+        },
+        {
+            "chipName": "ADDER",
+            "posX": -1.0379,
+            "posY": -0.2438,
+            "inputPins": [
+                {
+                    "name": "i1",
+                    "parentChipIndex": 2,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "i2",
+                    "parentChipIndex": 6,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "retenu",
+                    "parentChipIndex": 14,
+                    "parentChipOutputIndex": 1,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "somme",
+                "retenu"
+            ]
+        },
+        {
+            "chipName": "ADDER",
+            "posX": 1.3381,
+            "posY": 0.9115,
+            "inputPins": [
+                {
+                    "name": "i1",
+                    "parentChipIndex": 1,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "i2",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "retenu",
+                    "parentChipIndex": 15,
+                    "parentChipOutputIndex": 1,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "somme",
+                "retenu"
+            ]
+        },
+        {
+            "chipName": "ADDER",
+            "posX": 4.0145,
+            "posY": 1.9233,
+            "inputPins": [
+                {
+                    "name": "i1",
+                    "parentChipIndex": 0,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "i2",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false
+                },
+                {
+                    "name": "retenu",
+                    "parentChipIndex": 16,
+                    "parentChipOutputIndex": 1,
+                    "isCylic": false
+                }
+            ],
+            "outputPinNames": [
+                "somme",
+                "retenu"
+            ]
+        }
+    ]
+}
