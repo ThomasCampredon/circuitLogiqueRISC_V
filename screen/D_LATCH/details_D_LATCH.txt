@@ -1,0 +1,7 @@
+Détails :
+inputs              : 1 bit à enregistrer ; 1 bit pour demander la sauvegarde
+outputs             : 1 bit qui est enregistré
+nombre d'entrée     : 2
+nombre de sortie    : 1
+nombre de connexion : 51
+nombre de cable     : 18
