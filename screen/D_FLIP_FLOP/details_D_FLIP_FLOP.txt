@@ -1,0 +1,7 @@
+Détails :
+inputs              : 1 bit pour la valeur à stockée ; un bit qui représente l'horloge
+outputs             : le bit stocké
+nombre d'entrée     : 2
+nombre de sortie    : 1
+nombre de connexion : 
+nombre de cable     : 

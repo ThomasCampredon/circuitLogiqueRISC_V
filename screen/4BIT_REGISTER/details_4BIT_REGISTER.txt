@@ -1,0 +1,7 @@
+Détails :
+inputs              : 
+outputs             : 
+nombre d'entrée     : 6
+nombre de sortie    : 4
+nombre de connexion : 
+nombre de cable     : 
