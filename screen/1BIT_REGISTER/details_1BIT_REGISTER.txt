@@ -1,0 +1,7 @@
+Détails :
+inputs              : 1 bit à enregistrer ; 1 bit pour demander la sauvegarde ; 1 bit pour l'horloge
+outputs             : le bit stocké
+nombre d'entrée     : 3
+nombre de sortie    : 1
+nombre de connexion : 134
+nombre de cable     : 46
