@@ -1,0 +1,84 @@
+{
+    "serializableWires": [
+        {
+            "parentChipIndex": 4,
+            "parentChipOutputIndex": 0,
+            "childChipIndex": 2,
+            "childChipInputIndex": 0,
+            "anchorPoints": [
+                {
+                    "x": -1.7613892555236817,
+                    "y": 0.8788889646530151
+                },
+                {
+                    "x": 7.243164539337158,
+                    "y": 0.8658332228660584
+                }
+            ]
+        },
+        {
+            "parentChipIndex": 0,
+            "parentChipOutputIndex": 0,
+            "childChipIndex": 3,
+            "childChipInputIndex": 0,
+            "anchorPoints": [
+                {
+                    "x": -7.243164539337158,
+                    "y": 1.5447226762771607
+                },
+                {
+                    "x": -5.282083511352539,
+                    "y": 1.5708330869674683
+                }
+            ]
+        },
+        {
+            "parentChipIndex": 3,
+            "parentChipOutputIndex": 0,
+            "childChipIndex": 4,
+            "childChipInputIndex": 0,
+            "anchorPoints": [
+                {
+                    "x": -4.392083168029785,
+                    "y": 1.5708330869674683
+                },
+                {
+                    "x": -3.5576388835906984,
+                    "y": 1.5708330869674683
+                },
+                {
+                    "x": -3.5511112213134767,
+                    "y": 1.0290275812149048
+                },
+                {
+                    "x": -2.6513891220092775,
+                    "y": 0.9988889694213867
+                }
+            ]
+        },
+        {
+            "parentChipIndex": 1,
+            "parentChipOutputIndex": 0,
+            "childChipIndex": 4,
+            "childChipInputIndex": 1,
+            "anchorPoints": [
+                {
+                    "x": -7.243164539337158,
+                    "y": 0.5720832943916321
+                },
+                {
+                    "x": -3.701249837875366,
+                    "y": 0.5459723472595215
+                },
+                {
+                    "x": -3.727360963821411,
+                    "y": 0.7940278053283691
+                },
+                {
+                    "x": -2.6513891220092775,
+                    "y": 0.7588889598846436
+                }
+            ]
+        }
+    ]
+}

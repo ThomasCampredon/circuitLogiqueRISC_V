@@ -1,0 +1,7 @@
+Détails :
+inputs              : 2 binaires
+outputs             : 1 binaires
+nombre d'entrée     : 2
+nombre de sortie    : 1
+nombre de connexion : 16
+nombre de cable     : 9

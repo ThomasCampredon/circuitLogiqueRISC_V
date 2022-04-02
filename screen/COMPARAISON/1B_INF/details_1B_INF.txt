@@ -1,0 +1,7 @@
+Détails :
+inputs              : 2 bits à comparer
+outputs             : 1 bit pour vrai ou faux
+nombre d'entrée     : 2
+nombre de sortie    : 1
+nombre de connexion : 8
+nombre de cable     : 4

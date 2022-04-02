@@ -1,0 +1,7 @@
+Détails :
+inputs              : 4 bits pour le premier nombre, 4 bits pour le deuxième
+outputs             : 1 bit pour vrai ou faux
+nombre d'entrée     : 8
+nombre de sortie    : 1
+nombre de connexion : 82
+nombre de cable     : 39

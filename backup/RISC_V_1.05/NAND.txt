@@ -1,0 +1,110 @@
+{
+  "name": "NAND",
+  "creationIndex": 1,
+  "colour": {
+    "r": 0.48593726754188538,
+    "g": 0.28439834713935852,
+    "b": 0.72641509771347046,
+    "a": 1.0
+  },
+  "nameColour": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "componentNameList": [
+    "SIGNAL IN",
+    "SIGNAL OUT",
+    "AND",
+    "NOT"
+  ],
+  "savedComponentChips": [
+    {
+      "chipName": "SIGNAL IN",
+      "posX": -7.6431,
+      "posY": 1.6948,
+      "inputPins": [],
+      "outputPins": [
+        {
+          "name": "i1",
+          "wireType": 0
+        }
+      ]
+    },
+    {
+      "chipName": "SIGNAL IN",
+      "posX": -7.6431,
+      "posY": -0.3483,
+      "inputPins": [],
+      "outputPins": [
+        {
+          "name": "i2",
+          "wireType": 0
+        }
+      ]
+    },
+    {
+      "chipName": "SIGNAL OUT",
+      "posX": 7.6431,
+      "posY": 0.572,
+      "inputPins": [
+        {
+          "name": "o1",
+          "parentChipIndex": 4,
+          "parentChipOutputIndex": 0,
+          "isCylic": false,
+          "wireType": 0
+        }
+      ],
+      "outputPins": []
+    },
+    {
+      "chipName": "AND",
+      "posX": -2.3238,
+      "posY": 0.6634,
+      "inputPins": [
+        {
+          "name": "A",
+          "parentChipIndex": 0,
+          "parentChipOutputIndex": 0,
+          "isCylic": false,
+          "wireType": 0
+        },
+        {
+          "name": "B",
+          "parentChipIndex": 1,
+          "parentChipOutputIndex": 0,
+          "isCylic": false,
+          "wireType": 0
+        }
+      ],
+      "outputPins": [
+        {
+          "name": "OUT",
+          "wireType": 0
+        }
+      ]
+    },
+    {
+      "chipName": "NOT",
+      "posX": 2.5784,
+      "posY": 0.6308,
+      "inputPins": [
+        {
+          "name": "IN",
+          "parentChipIndex": 3,
+          "parentChipOutputIndex": 0,
+          "isCylic": false,
+          "wireType": 0
+        }
+      ],
+      "outputPins": [
+        {
+          "name": "OUT",
+          "wireType": 0
+        }
+      ]
+    }
+  ]
+}
