@@ -1,0 +1,351 @@
+{
+    "name": "BOUCLE I",
+    "creationIndex": 22,
+    "colour": {
+        "r": 0.8773584961891174,
+        "g": 0.5744283199310303,
+        "b": 0.22761660814285279,
+        "a": 1.0
+    },
+    "nameColour": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "folderName": "fibo",
+    "scale": 0.6462932825088501,
+    "componentNameList": [
+        "SIGNAL IN",
+        "SIGNAL OUT",
+        "4B INF",
+        "4B REGISTER",
+        "4BIT ADDER",
+        "NOT"
+    ],
+    "savedComponentChips": [
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.5044,
+            "posY": 1.7001,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "n",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.5044,
+            "posY": 1.3768,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "n",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.5044,
+            "posY": 1.0536,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "n",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.5044,
+            "posY": 0.7303,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "n",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.5043,
+            "posY": -0.6125,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "clock",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.7817,
+            "posY": 0.3274,
+            "inputPins": [
+                {
+                    "name": "i inf n",
+                    "parentChipIndex": 6,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": []
+        },
+        {
+            "chipName": "4B INF",
+            "posX": -3.9802,
+            "posY": 1.2086,
+            "inputPins": [
+                {
+                    "name": "n1",
+                    "parentChipIndex": 7,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": true,
+                    "wireType": 0
+                },
+                {
+                    "name": "n1",
+                    "parentChipIndex": 7,
+                    "parentChipOutputIndex": 1,
+                    "isCylic": true,
+                    "wireType": 0
+                },
+                {
+                    "name": "n1",
+                    "parentChipIndex": 7,
+                    "parentChipOutputIndex": 2,
+                    "isCylic": true,
+                    "wireType": 0
+                },
+                {
+                    "name": "n1",
+                    "parentChipIndex": 7,
+                    "parentChipOutputIndex": 3,
+                    "isCylic": true,
+                    "wireType": 0
+                },
+                {
+                    "name": "n2",
+                    "parentChipIndex": 0,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "n2",
+                    "parentChipIndex": 1,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "n2",
+                    "parentChipIndex": 2,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "n2",
+                    "parentChipIndex": 3,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "inf",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "4B REGISTER",
+            "posX": -0.0048,
+            "posY": 1.2543,
+            "inputPins": [
+                {
+                    "name": "i1",
+                    "parentChipIndex": 8,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": true,
+                    "wireType": 0
+                },
+                {
+                    "name": "i2",
+                    "parentChipIndex": 8,
+                    "parentChipOutputIndex": 1,
+                    "isCylic": true,
+                    "wireType": 0
+                },
+                {
+                    "name": "i3",
+                    "parentChipIndex": 8,
+                    "parentChipOutputIndex": 2,
+                    "isCylic": true,
+                    "wireType": 0
+                },
+                {
+                    "name": "i4",
+                    "parentChipIndex": 8,
+                    "parentChipOutputIndex": 3,
+                    "isCylic": true,
+                    "wireType": 0
+                },
+                {
+                    "name": "save",
+                    "parentChipIndex": 6,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "clock",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "o1",
+                    "wireType": 0
+                },
+                {
+                    "name": "o2",
+                    "wireType": 0
+                },
+                {
+                    "name": "o3",
+                    "wireType": 0
+                },
+                {
+                    "name": "o4",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "4BIT ADDER",
+            "posX": 3.9638,
+            "posY": 1.5154,
+            "inputPins": [
+                {
+                    "name": "i1 8",
+                    "parentChipIndex": -1,
+                    "parentChipOutputIndex": -1,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "i1 4",
+                    "parentChipIndex": -1,
+                    "parentChipOutputIndex": -1,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "i1 2",
+                    "parentChipIndex": -1,
+                    "parentChipOutputIndex": -1,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "i1 1",
+                    "parentChipIndex": 9,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "i2 8",
+                    "parentChipIndex": 7,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "i2 4",
+                    "parentChipIndex": 7,
+                    "parentChipOutputIndex": 1,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "i2 2",
+                    "parentChipIndex": 7,
+                    "parentChipOutputIndex": 2,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "i2 1",
+                    "parentChipIndex": 7,
+                    "parentChipOutputIndex": 3,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "retenu",
+                    "parentChipIndex": -1,
+                    "parentChipOutputIndex": -1,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "o1 8",
+                    "wireType": 0
+                },
+                {
+                    "name": "o1 4",
+                    "wireType": 0
+                },
+                {
+                    "name": "o1 2",
+                    "wireType": 0
+                },
+                {
+                    "name": "o1 1",
+                    "wireType": 0
+                },
+                {
+                    "name": "overflow",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "NOT",
+            "posX": 2.3449,
+            "posY": 1.7047,
+            "inputPins": [
+                {
+                    "name": "IN",
+                    "parentChipIndex": -1,
+                    "parentChipOutputIndex": -1,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "OUT",
+                    "wireType": 0
+                }
+            ]
+        }
+    ]
+}

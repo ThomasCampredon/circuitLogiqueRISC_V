@@ -1,0 +1,112 @@
+{
+    "name": "1B INF",
+    "creationIndex": 16,
+    "colour": {
+        "r": 0.1863248348236084,
+        "g": 0.7175858616828919,
+        "b": 0.41881513595581057,
+        "a": 1.0
+    },
+    "nameColour": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "folderName": "comparaison",
+    "scale": 1.0,
+    "componentNameList": [
+        "SIGNAL IN",
+        "SIGNAL OUT",
+        "NOT",
+        "AND"
+    ],
+    "savedComponentChips": [
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.5043,
+            "posY": 0.7147,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "i1",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.5043,
+            "posY": -0.2579,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "i2",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.7817,
+            "posY": 0.0358,
+            "inputPins": [
+                {
+                    "name": "inf",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": []
+        },
+        {
+            "chipName": "NOT",
+            "posX": -4.6982,
+            "posY": 0.7408,
+            "inputPins": [
+                {
+                    "name": "IN",
+                    "parentChipIndex": 0,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "OUT",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "AND",
+            "posX": -2.0675,
+            "posY": 0.0488,
+            "inputPins": [
+                {
+                    "name": "A",
+                    "parentChipIndex": 3,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "B",
+                    "parentChipIndex": 1,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "OUT",
+                    "wireType": 0
+                }
+            ]
+        }
+    ]
+}

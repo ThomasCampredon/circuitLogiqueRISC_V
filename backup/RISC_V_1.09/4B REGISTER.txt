@@ -1,0 +1,293 @@
+{
+    "name": "4B REGISTER",
+    "creationIndex": 13,
+    "colour": {
+        "r": 1.0,
+        "g": 0.5503289699554443,
+        "b": 0.0,
+        "a": 1.0
+    },
+    "nameColour": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "folderName": "memory",
+    "scale": 1.0,
+    "componentNameList": [
+        "SIGNAL IN",
+        "SIGNAL OUT",
+        "1B REGISTER"
+    ],
+    "savedComponentChips": [
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 1.9037,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "i1",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 1.1073,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "i2",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": 0.2848,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "i3",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": -0.518,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "i4",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": -1.693,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "save",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL IN",
+            "posX": -7.6431,
+            "posY": -2.3458,
+            "inputPins": [],
+            "outputPins": [
+                {
+                    "name": "clock",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 1.6883,
+            "inputPins": [
+                {
+                    "name": "o1",
+                    "parentChipIndex": 10,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 0.8788,
+            "inputPins": [
+                {
+                    "name": "o2",
+                    "parentChipIndex": 11,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": 0.089,
+            "inputPins": [
+                {
+                    "name": "o3",
+                    "parentChipIndex": 12,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": []
+        },
+        {
+            "chipName": "SIGNAL OUT",
+            "posX": 7.6431,
+            "posY": -0.6877,
+            "inputPins": [
+                {
+                    "name": "o4",
+                    "parentChipIndex": 13,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": []
+        },
+        {
+            "chipName": "1B REGISTER",
+            "posX": -0.1762,
+            "posY": 1.6883,
+            "inputPins": [
+                {
+                    "name": "i1",
+                    "parentChipIndex": 0,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "save",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "clock",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "o1",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "1B REGISTER",
+            "posX": -0.1762,
+            "posY": 0.8783,
+            "inputPins": [
+                {
+                    "name": "i1",
+                    "parentChipIndex": 1,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "save",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "clock",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "o1",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "1B REGISTER",
+            "posX": -0.1762,
+            "posY": 0.0683,
+            "inputPins": [
+                {
+                    "name": "i1",
+                    "parentChipIndex": 2,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "save",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "clock",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "o1",
+                    "wireType": 0
+                }
+            ]
+        },
+        {
+            "chipName": "1B REGISTER",
+            "posX": -0.1762,
+            "posY": -0.7416,
+            "inputPins": [
+                {
+                    "name": "i1",
+                    "parentChipIndex": 3,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "save",
+                    "parentChipIndex": 4,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                },
+                {
+                    "name": "clock",
+                    "parentChipIndex": 5,
+                    "parentChipOutputIndex": 0,
+                    "isCylic": false,
+                    "wireType": 0
+                }
+            ],
+            "outputPins": [
+                {
+                    "name": "o1",
+                    "wireType": 0
+                }
+            ]
+        }
+    ]
+}
